@@ -178,6 +178,10 @@ nav,
   color:white;
 }
 
+.dark-theme .section__tile {
+  color: #242424;
+}
+
 .section__sub-title {
   color:#242424;
 }
@@ -200,6 +204,8 @@ nav,
   background-color: white;
   color: #242424;
 }
+
+
 /*
 
   LANDING PAGE
