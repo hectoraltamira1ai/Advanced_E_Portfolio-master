@@ -169,7 +169,6 @@ nav,
 }
 
 .dark-theme .title,
-.dark-theme .section__title,
 .dark-theme .section__sub-title,
 .dark-theme .nav__link--anchor,
 .dark-theme .fa-adjust,
@@ -178,6 +177,11 @@ nav,
 {
   color:white;
 }
+
+.section__sub-title {
+  color:#242424;
+}
+
 .dark-theme section {
   background-color: #242424;
 }
@@ -531,6 +535,15 @@ nav {
   font-size: 36px;
   z-index: 100;
 }
+
+.dark-theme .section__title {
+  color: #242424;
+}
+
+.dark-theme .project__img {
+  opacity: 80%;
+}
+
 /* PROJECTS */
 
 .project {
@@ -627,6 +640,8 @@ footer {
   background-color: #242424;
   display: flex;
   padding: 6% 0;
+  
+  
 }
 
 .footer__row {
@@ -1036,4 +1051,4 @@ footer {
     margin: 12px 0;
   }
 
-  
+}
