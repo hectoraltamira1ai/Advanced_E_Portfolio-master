@@ -529,7 +529,7 @@ nav {
   text-align: center;
   font-size: 0.6rem;
   color: #242424; /* Adjust color as needed */
-  margin-top: 14px; /* Add spacing between the icon and the text */
+  margin-top: 10px; /* Add spacing between the icon and the text */
 }
 
 @keyframes spinner {
