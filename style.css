@@ -461,6 +461,7 @@ nav {
 .modal__para {
   margin-bottom: 12px;
   line-height: 1.75;
+  color: #242424;
 }
 
 .form__item {
@@ -521,6 +522,14 @@ nav {
 
 .fa-spinner {
   animation: spinner 750ms infinite linear;
+}
+
+.placeholder-text {
+  display: block;
+  text-align: center;
+  font-size: 0.6rem;
+  color: #242424; /* Adjust color as needed */
+  margin-top: 14px; /* Add spacing between the icon and the text */
 }
 
 @keyframes spinner {
