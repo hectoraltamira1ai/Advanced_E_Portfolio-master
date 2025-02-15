@@ -28,7 +28,7 @@ button {
   cursor: pointer;
 }
 
-/* SCROLL-BAR WITH PURPLE SCROLLBAR */
+/* SCROLL-BAR WITH ORANGE SCROLLBAR */
 ::-webkit-scrollbar-thumb {
   background: #F06449;
 }
@@ -1004,6 +1004,9 @@ footer {
 
 /* Small phones, tablets, large smartphones */
 @media (max-width: 768px) {
+  .shape {
+    display: none;
+  }
   nav {
     height: 68px;
   }
